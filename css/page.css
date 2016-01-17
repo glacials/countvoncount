@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+  color: #ccc;
+}
+
+button {
+  background: none;
+  border: 1px #1d1d1d solid;
+}
+
+.player {
+  border: 1px solid #1d1d1d;
+  display: none;
+  padding: 1em;
+}
+
+.player-life {
+  color: #f7412d;
+}
+
+.life-btn {
+  border: none;
+  color: #7ccac3;
+}
+
+.life-btn-left {
+  border-right: 1px #1d1d1d solid;
+}
+
+.life-btn-right {
+  border-left: 1px #1d1d1d solid;
+}
+
+.life-btn-top {
+  border-bottom: 1px #1d1d1d solid;
+}

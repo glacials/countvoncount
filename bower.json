@@ -1,0 +1,27 @@
+{
+  "name": "countvoncount",
+  "authors": [
+    "glacials <qhiiyr@gmail.com>"
+  ],
+  "description": "A Magic: The Gathering life counter",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "mtg",
+    "magic",
+    "magic: the gathering",
+    "life counter"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/glacials/countvoncount",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2"
+  }
+}

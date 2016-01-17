@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/page.css" />
+
+  </head>
+  <body>
+    <div class="container">
+      <button id="add-player-btn">Add player</button>
+    </div>
+
+    <div id="player-area" class="container">
+    </div>
+
+    <div id="player" data-player-num="0" class="player col-md-6">
+      <h4 id="player-name" class="col-md-12" style="text-align: center;">Player <span id="player-num">0</span></h4>
+
+      <h1 id="life" class="player-life col-md-12" style="text-align: center;">40</h1>
+
+      <button id="life-incr-1" class="life-btn life-btn-left  life-btn-top col-md-6">+1</button>
+      <button id="life-incr-5" class="life-btn life-btn-right life-btn-top col-md-6">+5</button>
+      <button id="life-decr-1" class="life-btn life-btn-left  life-btn-bottom col-md-6">-1</button>
+      <button id="life-decr-5" class="life-btn life-btn-right life-btn-bottom col-md-6">-5</button>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/life.js"></script>
+  </body>
+</html>
