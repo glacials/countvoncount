@@ -1,7 +1,7 @@
 $(document).ready(function () {
   window.numPlayers = 0;
 
-  $("#add-player-btn").click(function () {
+  window.addPlayer = function () {
     var newPlayer;
     // Player 0 is the template
     newPlayer = $("#player").clone(true);
@@ -14,5 +14,11 @@ $(document).ready(function () {
     // Add player to the screen
     newPlayer.appendTo("#player-area");
     newPlayer.css("display", "block");
-  });
+  };
+
+  $("#add-player-btn").click(addPlayer);
+
+  addPlayer();
+  addPlayer();
+  addPlayer();
 });
