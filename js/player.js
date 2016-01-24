@@ -4,7 +4,9 @@ $(document).ready(function () {
   window.addPlayer = function () {
     var newPlayer;
     // Player 0 is the template
-    newPlayer = $("#player").clone(true);
+    newPlayer = $(".player-template").clone(true);
+    newPlayer.removeClass("player-template");
+    newPlayer.add("player");
 
     // Set player number
     window.numPlayers++;
@@ -17,8 +19,4 @@ $(document).ready(function () {
   };
 
   $("#add-player-btn").click(addPlayer);
-
-  addPlayer();
-  addPlayer();
-  addPlayer();
 });
